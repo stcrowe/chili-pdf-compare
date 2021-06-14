@@ -1,0 +1,9 @@
+.idea
+dist_pkg
+dist
+lib
+node_modules
+
+package-lock.json
+
+test_files/server_config.json
