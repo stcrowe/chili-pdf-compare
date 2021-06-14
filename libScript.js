@@ -30,6 +30,8 @@ const fs = require("fs-extra");
 
         await zip.extract(null, "./lib");
 
+        await zip.close();
+
         fs.removeSync("./temp_lib/");
     } catch (e) {
         console.log(e);
